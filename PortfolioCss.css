@@ -1,0 +1,294 @@
+html {
+  scroll-behavior: smooth;
+}
+.imga
+{
+  width: 400px;
+  height: 400px;
+  margin-top: 15px;
+}
+
+.plein-ecran {
+        width: 100%; /* Largeur de 100% de l'écran */
+        height: 100vh; /* Hauteur de 100% de la hauteur de la fenêtre */
+          }
+
+#acc
+{
+  font-size: 35px;
+  margin-top: 5px;
+
+}
+img {
+  width: 300px;
+  height: 300px;
+  margin-top: 15px;
+}
+
+.fond1 {
+  background-color: #e4f0ff;
+}
+
+.centre {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #427CC1;
+  font-family: Times New Roman, script;
+  font-size: 50px;
+}
+
+p {
+  color: #5A7D9A;
+  font-family: Times New Roman, monospace;
+  font-size: 25px;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+}
+
+
+
+nav {
+  background-color: #427CC1;
+  padding: 10px;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-family: Times New Roman, script;
+  margin-right: 20px;
+}
+
+.nav{
+  float: left;
+  font-size: 30px;
+
+}
+
+
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0.6em 1em;
+  border: 4px solid #427CC1;
+  transition: ease-in-out 0.3s;
+  background-color: transparent;
+  color:#427CC1;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+button:hover {
+  transform: scale(1.2) rotate(10deg);
+  background-color: #427CC1;
+  color: white;
+}
+
+#id {
+  text-decoration: none;
+  color: #427CC1;
+}
+
+h2 {
+  color: #427CC1;
+  font-family: Times New Roman script;
+  text-align: center;
+  font-size: 40px;
+}
+
+.texte {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-family: Times New Roman, script;
+  line-height: 1.15;
+}
+
+#blanc {
+  color: #427CC1;
+}
+
+li {
+  color: #5A7D9A;
+  font-size: 20px;
+  text-align: left;
+}
+
+.taille1 {
+  width: 250px;
+  height: 250px;
+  margin-top: 15px
+
+}
+
+.taille2 {
+  width: 400px;
+  height: 400px;
+}
+
+.contact-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-form label {
+  color: black;
+}
+
+.contact-form .heading {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+  width: 200px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #FF6505;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"] {
+  background-color: #FF6505;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.contact {
+  width: 50px;
+  height: 50px;
+}
+
+.fincon {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #e4f0ff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color: #5A7D9A;
+  font-size: 20px;
+  text-align: center;
+}
+
+#button2
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0.6em 1em;
+  border: 4px solid #5A7D9A;
+  transition: ease-in-out 0.3s;
+  background-color: #5A7D9A;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+
+}
+
+.black {
+   color: black;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup-image {
+  display: block;
+  margin: 0 auto;
+}
